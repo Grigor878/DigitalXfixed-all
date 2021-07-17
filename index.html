@@ -18,47 +18,21 @@
 
         <!-- Main Cookie -->
         <div id="pop-up" class="cookie-container">
-            <i class="fa fa-times" aria-hidden="true"></i>
+            <i class="fa fa-times cookie-close" aria-hidden="true" onclick="closeCookie()"></i>
             <h2>This website uses <a href="">cookies</a></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore
                 et
                 dolore magna aliqua.</p>
-            <form class="cookie-buttons">
-                <button type="button" class="cookie-btn btn1 popup-btn">Accept all</button>
-                <button type="button" class="cookie-btn2 btn1 popup-btn">Minimal cookies</button>
-                <button type="button" class="cookie-btn3 popup-btn">Set cookies</button>
+            <form class="cookie-buttons" action="">
+                <button type="button" class="cookie-btn btn1 popup-btn" onclick="setCookie()">Accept all</button>
+                <button type="button" class="cookie-btn2 btn1 popup-btn" onclick="minCookie()">Minimal cookies</button>
+                <button type="button" class="cookie-btn3 popup-btn" onclick="rejectCookie()">Reject cookies</button>
             </form>
         </div>
         </div>
 
-        <!--LEADMAGNET-->
-        <div id="leadmagnet" class="leadmagnet">
-            <div class="lead-row">
-                <div class="lead-col col-bg">
-                    <img src="img/leadmagnet phone.png" alt="">
-                </div>
-
-                <div class="lead-col col-bg2">
-                    <i class="fa fa-times lead-x" aria-hidden="true"></i>
-                    <h2>Be the first to receive
-                        latest news from DigitalX</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut
-                        labore ea
-                        aliqua.
-                    </p>
-                    <form class="lead-form" action="">
-                        <input class="lead-input" type="text" placeholder="First Name" name="firstName">
-                        <input class="lead-input" type="text" placeholder="Last Name" name="lastName">
-                        <input class="lead-input" type="email" placeholder="Email" name="email">
-                    </form>
-                    <div class="lead-btn">
-                        <button class="btn1 lead-button">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
         <!--Header-->
         <header>
